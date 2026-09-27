@@ -1,0 +1,6 @@
+{
+  "name": "N3RVE // Audio Producer & Mastering",
+  "description": "Portfolio, audition lab, and mastering studio console for N3RVE. Analog signal chain, interactive audio auditioning, stem mastering, and direct booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
