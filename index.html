@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>N3RVE // Audio Producer & Mastering</title>
+    <script>
+      // GitHub Pages subdirectory trailing slash fix: ensures relative assets load properly
+      (function() {
+        var p = window.location.pathname;
+        if (p && !p.endsWith('/') && !p.split('/').pop().includes('.')) {
+          window.location.replace(p + '/' + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
     <meta name="description" content="Portfolio, audition lab, and mastering studio console for N3RVE. Analog signal chain, interactive audio auditioning, stem mastering, and direct booking." />
     <meta property="og:title" content="N3RVE // Audio Producer & Mastering" />
     <meta property="og:description" content="Portfolio, audition lab, and mastering studio console for N3RVE. Analog signal chain, interactive audio auditioning, stem mastering, and direct booking." />

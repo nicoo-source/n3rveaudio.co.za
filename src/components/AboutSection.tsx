@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sliders, Disc, Shield, Activity, MapPin, Award } from 'lucide-react';
+import studioConsoleImg from '../assets/images/n3rve_studio_console_1790494596278.jpg';
 
 export const AboutSection: React.FC = () => {
   const hardwareSpecs = [
@@ -35,9 +36,8 @@ export const AboutSection: React.FC = () => {
         <div className="lg:col-span-5 space-y-4">
           <div className="relative rounded-xl overflow-hidden border border-[#172554] bg-[#080f21] group">
             <img
-              src="/src/assets/images/n3rve_studio_console_1790494596278.jpg"
+              src={studioConsoleImg}
               alt="N3RVE Berlin Analog Mastering Studio"
-              referrerPolicy="no-referrer"
               className="w-full aspect-[4/3] object-cover group-hover:scale-102 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#030712] via-transparent to-transparent pointer-events-none" />

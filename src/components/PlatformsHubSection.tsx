@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { ExternalLink, Copy, Check, Disc, Radio, Music, PlayCircle, Code2, Globe } from 'lucide-react';
+import albumCyberImg from '../assets/images/album_cyber_overdrive_1790494607833.jpg';
+import albumNeonImg from '../assets/images/album_neon_phantom_1790494620287.jpg';
+import albumSubImg from '../assets/images/album_sub_pulse_1790494632213.jpg';
 
 interface PlatformItem {
   id: string;
@@ -27,7 +30,7 @@ export const PlatformsHubSection: React.FC = () => {
       headline: 'Official Vinyl Pressings & Lossless Downloads',
       description: 'The definitive hub for physical records, limited run 12" club vinyl, cassette tape releases, and pristine 24-bit 96kHz FLAC / WAV master files.',
       statsOrTag: '12" Vinyl / Cassettes / 24-bit FLAC',
-      image: '/src/assets/images/album_cyber_overdrive_1790494607833.jpg',
+      image: albumCyberImg,
       iconType: 'bandcamp',
     },
     {
@@ -39,7 +42,7 @@ export const PlatformsHubSection: React.FC = () => {
       headline: 'Exclusive Dubs, Radio Residencies & DJ Sets',
       description: 'Stream unreleased studio experiments, live modular live PA recordings from Berlin venues, club promos, and monthly curated podcast editions.',
       statsOrTag: 'Weekly Dubs / Live PA / Radio',
-      image: '/src/assets/images/album_neon_phantom_1790494620287.jpg',
+      image: albumNeonImg,
       iconType: 'soundcloud',
     },
     {
@@ -51,7 +54,7 @@ export const PlatformsHubSection: React.FC = () => {
       headline: 'Official Discography & Curated Soundscapes',
       description: 'Verified artist channel featuring all official label releases, remixes, plus our "N3RVE Studio Reference" playlist of foundational analog productions.',
       statsOrTag: 'Official Label Catalog / Curated Lists',
-      image: '/src/assets/images/album_sub_pulse_1790494632213.jpg',
+      image: albumSubImg,
       iconType: 'spotify',
     },
     {
